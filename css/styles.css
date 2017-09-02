@@ -1,0 +1,23 @@
+.boton_sulo{
+  background-color: aliceblue;
+  border: 0.7em solid black;
+  border-radius: 1em;
+  
+}
+
+.boton_sulo a{
+  color: black;
+}
+
+.fondoimg{
+  width:100%;
+  background-image: url(../assets/prueba.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-blanco{
+  background-color: rgba(255,255,255,0.5);
+  
+}
