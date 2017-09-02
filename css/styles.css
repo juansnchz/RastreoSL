@@ -12,6 +12,11 @@
   
 }
 
+.boton_sulo p{
+  font-family: sans-serif;
+  
+}
+
 .fondoimg{
   width:100%;
   background-image: url(../assets/prueba.jpg);
@@ -25,4 +30,12 @@
   font-family: 'Anton', sans-serif;
   border-radius: 1em;
   
+}
+
+.bg-verde{
+  background-color: rgba(104, 195, 163,0.9); 
+}
+
+.bg-negro{
+  background-color: rgba(10,10,10,0.9);
 }
