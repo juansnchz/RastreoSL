@@ -1,21 +1,17 @@
-.boton_sulo{
-  background-color: rgba(170,170,170, 0.6);
-  border: 0.15rem solid rgba(0,0,0,1);
-  border-radius: 1rem;
-  font-family: 'Anton', sans-serif;
-  overflow: hidden;
- 
-  
-}
 
-.boton_sulo a{
-  color: rgba(0,0,0,1);
+.item{
   
-}
-
-.boton_sulo p{
-  font-family: sans-serif;
-}
+    background-color: white;
+    border: 1px solid black;
+    margin: 1%;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    padding-top: 2%;
+    overflow: hidden;
+    font-family: 'Anton', sans-serif;
+  
+}  
 
 
 
@@ -31,7 +27,7 @@
 .bg-blanco{
   background-color: rgba(104, 195, 163,0.9);
   font-family: 'Anton', sans-serif;
-  border-radius: 1rem;
+  border-radius: 1em;
   
 }
 
