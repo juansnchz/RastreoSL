@@ -15,7 +15,9 @@ h5{
     background-color: rgba(200,200,200,0.95);
     border: 0.05rem solid black;
     margin: 1%;
+    height: 10%;
     width: 30%;
+    
     text-align: center;
     overflow: hidden;
     border-radius: 5%;
@@ -33,6 +35,7 @@ h5{
     margin: 0.5% 1% 0% 1%;
     width: 30%;
     height: 1%;
+    margin-top: -2.5%;
 }
 
 
