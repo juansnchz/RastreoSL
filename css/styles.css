@@ -1,8 +1,9 @@
 .boton_sulo{
-  background-color: rgba(170,170,170, 0.6);
-  border: 0.15rem solid rgba(0,0,0,1);
-  border-radius: 1rem;
-  font-family: 'Anton', sans-serif;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px 1px gray;
+ 
   overflow: hidden;
  
   
@@ -29,9 +30,9 @@
 }
 
 .bg-blanco{
-  background-color: rgba(104, 195, 163,0.9);
-  font-family: 'Anton', sans-serif;
-  border-radius: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  
   
 }
 

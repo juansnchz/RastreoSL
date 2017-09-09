@@ -12,14 +12,16 @@ h5{
 
 .item{
   
-    background-color: rgba(200,200,200,0.95);
-    border: 0.05rem solid black;
+    background-color: white;
+    border: 0.08rem solid gray;
+    border-radius: 8px;
+   box-shadow: 1px 1px 1px 1px gray;
     margin: 1%;
     height: 10%;
     width: 30%;
-    
     text-align: center;
     overflow: hidden;
+
     
  }  
 
