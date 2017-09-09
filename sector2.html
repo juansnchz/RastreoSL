@@ -7,7 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/courier.css">
-  <title>Sector 4: Guayacanes</title>
+  <title>Sector 2: Metropolitano Norte</title>
 </head>
   
 <style>
@@ -39,10 +39,16 @@
   </div> <!--Botones para cambiar de couriers a sectores-->
   
   
-  <img class="mb-2" src="assets/sector4.png" style="width: 100%;">
+  <img class="mb-2" src="assets/sector2.png" style="width: 100%;">
     
-  <h3 class="text-center bg-inverse text-white p-2 my-2">S4: Guayacanes</h3>
-
+  <h3 class="text-center bg-inverse text-white p-2 my-2">S2: Metropolitano Norte</h3>
+  <div class="alert alert-danger" role="alert">
+     <span class="font-weight-bold">Atención:</span> Este sector está en estado crítico. Se necesita el apoyo de 2 couriers adicionales para cumplir con la meta 9 a.m.
+    </div>  
+  
+ 
+  
+  
   
   <div class="container-fluid">
   
@@ -54,8 +60,8 @@
         
         <div class="collapse col" id="entregados_collapse">
             <div class="card card-body mt-2" style="border-color: forestgreen;">
-              <div class="alert alert-success" role="alert">
-                  48 de 121 envíos <span class="font-italic font-weight-bold"> Producto 9 a.m.</span> entregados exitosamente.
+              <div class="alert alert-danger" role="alert">
+                  3 de 121 envíos <span class="font-italic font-weight-bold"> Producto 9 a.m.</span> entregados exitosamente.
                 </div> 
                <table class="table">
                   <thead>
@@ -82,36 +88,8 @@
                     <td>08:27:00</td>
                     <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
                   </tr>
-                  <tr class="text-center">
-                    <td scope="row">6202b37</td>
-                    <td>08:25:33</td>
-                    <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
-                  </tr>
-                  <tr class="text-center">
-                    <td scope="row">0f82ec3</td>
-                    <td>08:18:47</td>
-                    <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
-                  </tr>
-                  <tr class="text-center">
-                    <td scope="row">c92c6db</td>
-                    <td>08:17:02</td>
-                    <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
-                  </tr>
-                  <tr class="text-center">
-                    <td scope="row">b13d975</td>
-                    <td>08:10:11</td>
-                    <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
-                  </tr>
-                  <tr class="text-center">
-                    <td scope="row">b91d8b1</td>
-                    <td>08:04:45</td>
-                    <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
-                  </tr>
-                  <tr class="text-center">
-                    <td scope="row">788493d</td>
-                    <td>08:02:37</td>
-                    <td><a href="#" class="text-success" data-toggle="modal" data-target="#POD">POD subida exitosamente (Ver)</a></td>
-                  </tr>
+                 
+                  
                  </tbody>
                 </table>
             </div> <!-- Card Body -->
@@ -119,8 +97,8 @@
 
          <div class="collapse col" id="porentregar_collapse">
             <div class="card card-body mt-2" style="border-color: orange;">
-              <div class="alert alert-warning" role="alert">
-                  Faltan 73 entregas de <span class="font-italic font-weight-bold"> Producto 9 a.m.</span>
+              <div class="alert alert-danger" role="alert">
+                  Faltan 118 entregas de <span class="font-italic font-weight-bold"> Producto 9 a.m.</span>
                 </div>  
                <table class="table">
                   <thead>
@@ -350,27 +328,11 @@
                     </tr>
                   </thead>
                 <tbody>
-                  <tr class="text-center">
-                    <td scope="row">d565922</td>
-                    <td>Falta POD</td>
-                  </tr>
-                  
+                 
                   <tr class="text-center">
                     <td scope="row">bdace05</td>
                     <td>Dirección no encontrada</td>
                   </tr>
-                  
-                   <tr class="text-center">
-                    <td scope="row">8454438</td>
-                    <td>Dirección errónea</td>
-                  </tr>
-                  
-                  <tr class="text-center">
-                    <td scope="row">5033c83</td>
-                    <td>Tiempo sobrepasado, la entrega debía ser antes de las 8:34 am</td>
-                  </tr>
-                  
-                  
                    
                  </tbody>
                 </table>
@@ -414,7 +376,7 @@
 <div class="d-flex justify-content-center">
   
   <div class="m-1 col-4">
-    <a style="width"  data-toggle="collapse" href="#courier1" aria-expanded="false" aria-controls="collapseExample"><img class="img-fluid img-thumbnail" src="assets/couriera.png" style="width: 100%; border: 1px solid purple"></a>
+    <a style="width"  data-toggle="collapse" href="#courier1" aria-expanded="false" aria-controls="collapseExample"><img class="img-fluid img-thumbnail" src="assets/courier4.png" style="width: 100%; border: 1px solid purple"></a>
   </div>
   
   <div class="m-1 col-4">
@@ -430,9 +392,9 @@
     <div class="collapse col" id="courier1">
       <div class="card card-body" style="border: 1px solid purple">
         <div class="d-flex flex-column align-items-center">
-        <h4 class="mt-2 text-center">Isabel Hernández</h4>
-        <h5 class="text-center"><a href="courier14.html">Courier 14</a></h5>
-        <img class="img-fluid" src="assets/sector4_1.png">  
+        <h4 class="mt-2 text-center">Carlos Martínez</h4>
+        <h5 class="text-center"><a href="courier13.html">Courier 13</a></h5>
+        <img class="img-fluid" src="assets/sector2_1.png">  
         </div>
       </div>
     </div> <!-- Collapse de courier 1 -->   
@@ -441,14 +403,13 @@
     <div class="collapse col" id="courier2">
       <div class="card card-body" style="border: 1px solid teal">
         <div class="d-flex flex-column align-items-center">
-        <h4 class="mt-2 text-center">Daniel Castillo</h4>
-        <h5 class="text-center"><a href="courier1.html">Courier 1</a></h5>
-        <img class="img-fluid" src="assets/sector4_2.png">  
+        <h4 class="mt-2 text-center">Angel Ruíz</h4>
+        <h5 class="text-center"><a href="courier17.html">Courier 17</a></h5>
+        <img class="img-fluid" src="assets/sector2_2.png">  
         </div>
       </div>
     </div> <!-- Collapse de courier 2 -->  
 </div> <!--Row collapse-->
-  
   
   
 </div><!-- content container -->
